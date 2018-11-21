@@ -24,6 +24,7 @@ body {
 
 img {
   width: 100%;
+  padding: 0;
 }
 
 img:nth-child(even) {
@@ -31,6 +32,10 @@ img:nth-child(even) {
 }
 
 @media only screen and (min-width: 25em) {
+
+  body {
+    text-align: center;
+  }
 
   img, img:nth-child(even) {
     display: inline-block;
